@@ -1,0 +1,24 @@
+html {
+    background-color: gray;
+}
+main {
+            width: 60%;
+            margin: auto;
+        }
+    h1,h2,h3 { 
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 3em;
+        }
+    p {
+            font-family: 'Playfair Display', serif;
+        }
+    blockquote {
+            font-family: 'Pacifico', cursive;
+        }
+        q {
+            font-family: 'Pacifico', cursive;
+        }
+        .signatur {
+            font-weight: ,bold;
+        }
