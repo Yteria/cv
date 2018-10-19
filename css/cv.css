@@ -1,42 +1,54 @@
 html {
-    background-color: white;
+    background-image: url("../bilder/Cloud.jpg");
 }
 
-    header {
-        width: 100%;
-        height: 200px;
-        background-color: rgba(207,16,16,0.7);
-        
+header {
+    width: 80%;
+    height: 200px;
+    background-color: rgba(100,100,100,0.7);
+    
+    
+}
+
+.checked {
+    color: orange;
+}
+
+main {
+    width:79%;
+    margin-right: 20%;
+    background-color: rgba(100,100,100,0.7);
+    
     }
+aside {
+    width: 20%;
+    float: right;
+    border-left: 3px solid black;
+    background-color: rgba(100,100,100,0.7);
+        
+}
 
-    main {
-        width:79%;
-        margin-right: 20%;
-        background-color: aqua;
-            
-        }
-    aside {
-        width: 20%;
-        float: right;
-        border-left: 1px solid black;
-        background-color: violet;
-            
-        }
-
-    h1,h2,h3 { 
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 3em;
-        }
-    p {
-            font-family: 'Playfair Display', serif;
-        }
-    blockquote {
-            font-family: 'Pacifico', cursive;
-        }
-        q {
-            font-family: 'Pacifico', cursive;
-        }
-        .signatur {
-            font-weight: ,bold;
-        }
+h1 { 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+}
+h2 {
+    text-align: center;
+    font-family: 'Open sans', sans-serif;
+}
+p {
+    font-family: 'Playfair Display', serif;
+}
+blockquote {
+    font-family: 'Pacifico', cursive;
+}
+q {
+    font-family: 'Pacifico', cursive;
+}
+.signatur {
+    font-weight: ,bold;
+}
+header>p {
+    color: lightgray;
+}
